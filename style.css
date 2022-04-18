@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: lightslategray;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 1rem 0;
+    text-align: center;
+    color: #abcdef;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #abcdef;
+    color: #abcdef;
+    width: 500px;
+    padding: 10px;
+
+}
+
+div > div {
+    background-color: lightslategray;
+    padding: 10px;
+    border: 2px solid black;
+}
