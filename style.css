@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: lightslategray;
+    background-color: rgb(78, 130, 181);
+
 }
 
 h1 {
@@ -10,7 +11,19 @@ h1 {
     color: #abcdef;
 }
 
-div {
+p {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    text-decoration: dotted;
+    font-size: larger;
+}
+
+#double_lines_yo {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+}
+#container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,12 +32,28 @@ div {
     color: #abcdef;
     width: 500px;
     padding: 10px;
+    height: 12rem;
 
 }
 
 div > div {
     background-color: lightslategray;
     padding: 10px;
+}
+
+div:nth-child(odd):hover {
+    transform: translate(-11px);
+    transition: transform 1s ease-in-out;
+}
+
+div:nth-child(even):hover {
+    transform: translate(11px);
+    transition: transform 1s ease-in-out;
+}
+
+div:nth-child(odd) {
+    background-color: #abcdef;
+    color: blueviolet;
 }
 
 #container {
