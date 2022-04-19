@@ -28,11 +28,11 @@ p {
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    background-color: #abcdef;
     color: #abcdef;
     width: 500px;
     padding: 10px;
     height: 12rem;
+
 
 }
 
@@ -56,6 +56,3 @@ div:nth-child(odd) {
     color: blueviolet;
 }
 
-#container {
-    background-color: blueviolet;
-}
