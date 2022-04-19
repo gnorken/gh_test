@@ -45,14 +45,22 @@ div:nth-child(odd):hover {
     transform: translate(-11px);
     transition: transform 1s ease-in-out;
 }
-
+/*
 div:nth-child(even):hover {
     transform: translate(11px);
     transition: transform 1s ease-in-out;
 }
-
+*/
 div:nth-child(odd) {
     background-color: #abcdef;
     color: blueviolet;
 }
 
+#myDiv {
+    background-image: linear-gradient(red, yellow);
+}
+
+.myToggle {
+    width: 300px;
+    height: 300px;
+}

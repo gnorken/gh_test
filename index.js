@@ -12,3 +12,17 @@ function logMouseOut() {
 
 
 }
+
+
+const temp = document.getElementById('myDiv');
+temp.onmouseover = tempMouseOver;
+temp.onmouseout = tempMouseOut;
+
+function tempMouseOver() {
+  temp.style.transform = 'rotate(0.5turn)';
+  temp.classList.toggle('myToggle');
+}
+
+function tempMouseOut() {
+  temp.style.transform = 'rotate(1turn)';
+}
