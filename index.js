@@ -9,8 +9,7 @@ function logMouseOver() {
 function logMouseOut() {
   p.textContent = 'MOUSE OUT detected';
   setTimeout(() => p.textContent = "That was intense.", 1200);
-
-
+  setTimeout(() => p.innerHTML = `Don't&nbsp;<span id="double_lines_yo">hoover</span>&nbsp;around.`, 3000);
 }
 
 
